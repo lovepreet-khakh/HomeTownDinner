@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    
+    </title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="JavaScript/contact.js"></script> 
+    <script src="http://openlayers.org/api/OpenLayers.js"></script>
+   	<script src="http://mapstraction.com/mxn/build/latest/mxn.js?(openlayers)" type="text/javascript"></script>
+    </head>
+    <body>
+    <header>
+        <h1>The Downtown Diner</h1>
+        <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li> &nbsp;&nbsp;
+             <li><a href="menu.html">Menu</a></li>&nbsp;&nbsp;
+        <li><a href="gallery.html">Gallery</a>&nbsp;&nbsp;
+			<ul><li><a href ="restaurant.html">Restaurant</a></li>
+				<li><a href ="food.html">Food</a></li>
+			</ul>
+            <li><a href="reservation.html">Reservation</a></li>&nbsp;&nbsp;
+        <li><a href="aboutus.html">About us</a></li>&nbsp;&nbsp;
+       <li><a href="contact.html">Contact us</a></li>
+			</ul>
+        </nav></header>
+    <div id="wrapper">
+        <main>
+            <div id="map"></div>
+            
+            <div class="container">
+                <h3>CONTACT US</h3>
+  
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." ><span>*</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email:</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="email" placeholder="Your email.." ><span>*</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Comments:</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><span>*</span>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit"  id="sub">
+    </div>
+  
+</div>
+
+            <div class="flex-container">
+            <div id="first">
+                <b>Location</b><br>
+                75 Courtland Ave E, Kitchener, ON N2G 2T6, Canada
+            </div>
+            <div id="second">
+                <b>Call Us</b><br>
+                <div class="contact"><a id="mobile" href="tel:226-899-2490">226-899-2490</a><span id="desktop">226-899-2490</span>
+            </div>
+                
+                
+            </div>
+            <div id="third">
+                <b>Opening Hours</b><br>
+                9:30am to 11:00pm Everyday
+                
+            </div>
+                
+            </div>
+            
+        </main>
+        </div>
+        <footer>
+            <a href="https://twitter.com/?lang=en" target="_blank"><img class="link" src="images/Twitter.png" ></a>&nbsp;&nbsp;
+            <a href="https://www.facebook.com/" target="_blank"> <img class="link" src="images/Facebook.png" ></a>&nbsp;&nbsp;
+            <a href="https://www.instagram.com/?hl=en" target="_blank">  <img class="link" src="images/Instagram.png"></a>&nbsp;&nbsp;
+            <a href="https://www.snapchat.com//" target="_blank"><img class="link" src="images/Snapchat.png" alt="Snapchat logo"></a>&nbsp;&nbsp;
+            <a href="https://mail.google.com/" target="_blank"><img class="link" src="images/Google+.png" alt="Google+ logo"></a><br><br>
+        <a href="index.html">Home</a>&nbsp;/&nbsp;
+        <a href="gallery.html">Gallery</a>&nbsp;/&nbsp;
+       <a href="aboutus.html">About us</a>&nbsp;/&nbsp;
+        <a href="menu.html">Menu</a>&nbsp;/&nbsp;
+        <a href="reservation.html">Reservation</a>&nbsp;/&nbsp;
+        <a href="contact.html">Contact us</a><br><br>
+			Copyright &copy; DowntownDiner 2018</footer>
+    </body>
+</html>
